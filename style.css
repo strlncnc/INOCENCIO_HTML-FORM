@@ -7,8 +7,8 @@
 body
 {
     color: #5D6063;
-    background-color: #9acafa;
-    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #6a9cce;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
     line-height:1.3;
     
@@ -20,7 +20,7 @@ body
 .speaker-form-header 
 {
     text-align: center;
-    background-color: #5eacfa;
+    background-color: #a0ccf8;
     border: 1px solid #D6D9D6;
     border-radius: 3px;
 
@@ -39,7 +39,7 @@ body
 
 .speaker-form 
 {
-    background-color: #5eacfa;
+    background-color: #a0ccf8;
     border: 1px solid #d6d9dc;
     border-radius: 3px;
 
@@ -76,7 +76,7 @@ body
 
 .legacy-form-row legend 
 {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .legend-form-row .radio-label 
@@ -99,6 +99,32 @@ body
 .form-row label 
 {
     margin-bottom: 15px;
+}
+
+.form-row textarea
+{
+    font-family: 'Helvica', 'Arial', sans-serif;
+    font-size: 14px;
+
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+}
+
+.form-row .instructions
+{
+    color: #837b7b;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.form-row .checkbox-label
+{
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width: 700px) {
@@ -143,6 +169,24 @@ body
     .legacy-form-row legend 
     {
         float: left;
+    }
+
+    .form-row select
+    {
+        width: 50%;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .form-row .instructions
+    {
+        margin-left: 120px;
+    }
+
+    .form-row .checkbox-label
+    {
+        margin-left: 120px;
+        width: auto;
     }
 
     .for-row input[type='text']:invalid,
